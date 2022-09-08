@@ -44,7 +44,7 @@ void addList(Node *list, int value)
     curr->next->prev = curr;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
     Node *list = creat_node(10);
     addList(list, 20);
