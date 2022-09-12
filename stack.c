@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #define MAX_STACK_SIZE 100
 
 // stack 구조체
@@ -68,6 +67,7 @@ void push(StackType *s)
     scanf("%d", &value);
     s->data[++(s->top)] = value;
 }
+
 void pop(StackType *s)
 {
     if (isEmpty(s))
